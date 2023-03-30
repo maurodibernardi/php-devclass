@@ -9,7 +9,7 @@ use JetBrains\PhpStorm\Internal\ReturnTypeContract;
 
 <h1>Contato:</h1>
 
-<?php get('message') ?>
+<?=get('message') ?>
 
 
 <form action="pages/forms/contato.php" method="POST" role="form">
